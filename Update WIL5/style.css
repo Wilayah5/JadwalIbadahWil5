@@ -1,0 +1,142 @@
+body {
+    background: linear-gradient(to right, #6a11cb, #ff6b6b);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.container-header {
+    text-align: center;
+    background-color: #87d5ec;
+    border-radius: 7px;
+    padding: 6px 2px;
+    border: 1px solid gainsboro;
+    /* font-family: ;     */
+}
+.container-main {
+    padding-bottom: 100px;
+    padding-top: 50px;
+    margin-top: 2em;
+}
+.container-update {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+}
+.container-update > div {
+    border: 1px solid black;
+    padding: 10px;
+    min-width: 100px;
+    text-align: center;
+    border-radius: 7px;
+    transition: 300ms all;
+    height: auto;
+    cursor: pointer; 
+    box-shadow: 3px 5px 5px black;
+    background-color: whitesmoke;
+}
+.container-update > div:hover {
+    box-shadow: 3px 5px 5px rgb(164, 196, 255);
+    color: aqua;
+}
+.container-update img {
+    max-width: 600px;
+}
+.content-tema,
+.content-pengkhotbah,
+.content-liturgos,
+.content-music,
+.content-location,
+.content-liturgi,
+.content-time,
+.content-ayat {
+    display: none;
+    border: 1px solid black;
+    padding: 10px;
+    min-width: 100px;
+    text-align: center;
+    border-radius: 7px;
+    transition: 450ms all;
+    height: auto;
+    width: auto;
+    box-shadow: 3px 5px 5px black;
+    margin-top: 30px;
+    background-color: whitesmoke;
+}
+
+.container-img-tema{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.container-img-tema img,
+.container-img-kotbah img {
+    margin: 0 10px;
+    width: 300px;
+    border-radius: 7px;
+}
+.img-liturgos{
+    width: 200px;
+    border-radius: 7px;
+}
+.img-tema {
+    width: 200px;
+}
+.img-pemusik {
+    width: 300px;
+    border-radius: 7px;
+}
+.img-location {
+    width: 300px;
+    border-radius: 7px;
+}
+.img-time {
+    width: 350px;
+    border-radius: 7px;
+}
+.img-ayat {
+    width: 250px;
+    border-radius: 7px;
+}
+.container-img-tema h3 {
+    margin: 0;
+}
+
+.container-img-tema i,
+.container-img-kotbah i,
+.container-img-liturgos i,
+.container-img-location i {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 4em;
+    cursor: pointer;
+}   
+.liturgos {
+    display: flex;
+    flex-direction: column;
+    
+}
+#arrowLiturgos{
+    margin-top: 3px;
+    font-size: 4em;
+}
+#arrowMusic,
+#arrowLocation,
+#arrowLiturgi,
+#arrowTime,
+#arrowAyat {
+    font-size: 4em;
+    margin-top: 25px;
+    cursor: pointer;
+    cursor: pointer;
+}
+
+
+
+/* @media screen and (max-width: 767px) {
+    
+} */        
